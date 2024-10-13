@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevanth - Web Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="home-content">
+                <h1>Sevanth</h1>
+                <p>Web Developer & Designer</p>
+                <p>PORTFOLIO</p>
+                <a href="#about" class="btn btn-primary">Explore My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images\aboutme-img.jpg" alt="Sevanth" width="300" height="300">
+                    </div>
+                    <div class="about-text">
+                        <p>I'm a web developer with a passion for creating beautiful and functional websites. With 3 years of experience, I specialize in HTML, CSS, and JavaScript.</p>
+                        <h3>My Skills:</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>Responsive Web Design</li>
+                            <li>Version Control (Git)</li>
+                        </ul>
+                        <p>When I'm not coding, you can find me hiking, reading, or experimenting with new recipes in the kitchen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div id="project-container">
+                    <div class="project-card">
+                        <img src="images\e-commerce.jpg" alt="E-commerce Website">
+                        <div class="project-card-content">
+                            <h3>E-commerce Website</h3>
+                            <p>A responsive online store built with HTML, CSS, and JavaScript.</p>
+                            <a href="https://github.com/Sevanthatgit/e-commerce-gadget-website">GitHub</a>
+                            <span class="category">Web Development</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images\weather.jpg" alt="Weather App">
+                        <div class="project-card-content">
+                            <h3>Weather App</h3>
+                            <p>A simple weather application using a third-party API.</p>
+                            <a href="https://github.com/Sevanthatgit/weather-app">GitHub</a>
+                            <span class="category">Web Application</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="images\stocks&inves.jpg" alt="S&I">
+                        <div class="project-card-content">
+                            <h3>Stocks & Investments Management System</h3>
+                            <p>One Stop Solution for all your Stocks and Investments needs.</p>
+                            <a href="https://github.com/Sevanthatgit/Stocks-And-Investments-Management-System">GitHub</a>
+                            <span class="category">Desktop VB.net</span>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <div class="container">
+                <h2>Resume</h2>
+                <p id="resumep">Download my resume or view it online:</p>
+                <div class="resume-buttons">
+                    <a href="Sevanth_resume.pdf" class="btn btn-primary" download="Sevanth_resume.pdf">Download PDF</a>
+                    <a href="Sevanth_resume.pdf" class="btn btn-secondary" target="_blank">View Online</a>
+                </div>
+            </div>
+        </section>
+
+       
+    <section id="contact" class="section">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="social-media">
+                <h2>Follow Me</h2>
+                <a href="https://www.linkedin.com/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com/" target="_blank" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com/" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Sevanth. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
